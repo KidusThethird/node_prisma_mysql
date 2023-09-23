@@ -18,6 +18,5 @@ model youtube_channels{
   subscribers Int @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  
 
 }
